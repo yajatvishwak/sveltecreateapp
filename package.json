@@ -1,0 +1,35 @@
+{
+  "name": "@yajatvishwak/svc",
+  "type": "module",
+  "version": "0.0.1",
+  "bin": {
+    "svc": "index.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.5"
+  },
+  "description": "A Bash CLI Tool to easily create different kinds of Svelte apps based on your requirements.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yajatvishwak/svelteappcreate"
+  },
+  "keywords": [
+    "svelte",
+    "starter",
+    "boilerplate"
+  ],
+  "author": "yajatvishwak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yajatvishwak/svelteappcreate"
+  },
+  "homepage": "https://github.com/yajatvishwak/svelteappcreate",
+  "publishConfig": {
+   "@yajatvishwak:registry": "https://npm.pkg.github.com"
+ }
+}
