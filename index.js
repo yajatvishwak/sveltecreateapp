@@ -26,6 +26,7 @@ function svelteflavor(name, flavor) {
         touch rollup.config.js  svelte.config.js &&
         cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/rollup.config.js ./
         cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/svelte.config.js ./
+        npm install node-sass svelte-preprocess 
         `;
         execSync(commandset2);
         console.log(
@@ -46,6 +47,7 @@ function svelteflavor(name, flavor) {
         touch rollup.config.js svelte.config.js
         cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/rollup.config.js ./rollup.config.js
         cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/svelte.config.js ./svelte.config.js
+        npm install node-sass svelte-preprocess 
         `;
         execSync(commandset2);
         console.log(
