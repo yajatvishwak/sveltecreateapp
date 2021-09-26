@@ -22,7 +22,8 @@ function svelteflavor(name, flavor) {
         cd ${process.cwd()} && 
         npx degit sveltejs/template --force && 
         rm -f src/App.svelte rollup.config.js svelte.config.js > /dev/null &&
-        cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/App.svelte ./src/
+        cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/App.svelte ./src/ &&
+        touch rollup.config.js  svelte.config.js &&
         cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/rollup.config.js ./
         cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/svelte.config.js ./
         `;
@@ -41,9 +42,10 @@ function svelteflavor(name, flavor) {
         npx degit sveltejs/template ${name} && 
         cd ${name} &&
         rm -f src/App.svelte rollup.config.js svelte.config.js > /dev/null &&
-        cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/App.svelte ./${name}/src/
-        cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/rollup.config.js ./${name}
-        cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/svelte.config.js ./${name}
+        cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/App.svelte ./src/
+        touch rollup.config.js svelte.config.js
+        cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/rollup.config.js ./rollup.config.js
+        cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/svelte.config.js ./svelte.config.js
         `;
         execSync(commandset2);
         console.log(
