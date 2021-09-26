@@ -1,5 +1,5 @@
 {
-  "name": "@yajatvishwak/svc",
+  "name": "sveltecreateapp",
   "type": "module",
   "version": "0.0.1",
   "bin": {
@@ -8,7 +8,7 @@
   "dependencies": {
     "inquirer": "^8.1.5"
   },
-  "description": "A Bash CLI Tool to easily create different kinds of Svelte apps based on your requirements.",
+  "description": "A CLI Tool to easily create different kinds of Svelte apps based on your requirements.",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
