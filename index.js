@@ -22,9 +22,9 @@ function svelteflavor(name, flavor) {
         cd ${process.cwd()} && 
         npx degit sveltejs/template --force && 
         rm -f src/App.svelte rollup.config.js svelte.config.js > /dev/null &&
-        cp ${npmpath.trim()}/svc/templates/svelteScss/App.svelte ./src/
-        cp ${npmpath.trim()}/svc/templates/svelteScss/rollup.config.js ./
-        cp ${npmpath.trim()}/svc/templates/svelteScss/svelte.config.js ./
+        cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/App.svelte ./src/
+        cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/rollup.config.js ./
+        cp ${npmpath.trim()}/sveltecreateapp/templates/svelteScss/svelte.config.js ./
         `;
         execSync(commandset2);
         console.log(
