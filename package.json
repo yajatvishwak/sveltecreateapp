@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yajatvishwak/svelteappcreate"
+    "url": "git+https://github.com/yajatvishwak/sveltecreateapp"
   },
   "keywords": [
     "svelte",
@@ -26,9 +26,9 @@
   "author": "yajatvishwak",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yajatvishwak/svelteappcreate"
+    "url": "https://github.com/yajatvishwak/sveltecreateapp"
   },
-  "homepage": "https://github.com/yajatvishwak/svelteappcreate",
+  "homepage": "https://github.com/yajatvishwak/sveltecreateapp",
   "publishConfig": {
     "@yajatvishwak:registry": "https://npm.pkg.github.com"
   }
